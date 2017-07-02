@@ -20,7 +20,7 @@ let Morze = (opts) => {
     buz.frequency(3000);
 
     let setTimer = () => {
-		timer = setTimeout(() => {
+		return timer = setTimeout(() => {
 			let char = getCharacter(signals.join(''));
 			signals = [];
 			timer = null;
